@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+    /*Colors*/
+    --back-g: #17232A;
+    --back-gp: #FFF9EA;
+    --back-g2: #40667c;
+    
+    /* background-image: url(../src/images/cubes2.png); */
+    /* background-color: #4e8bc0; */
+    background-color: #ffb187;
+background-image: linear-gradient(290deg, #ffb187 0%, #00e8d0 30%, #c887ff 66%, #ffd96f 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
 }

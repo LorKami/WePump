@@ -1,0 +1,102 @@
+.SuperNavbar {
+  display: flex;
+  /* justify-content: center; */
+  /* border: 2px solid greenyellow; */
+}
+
+.ContainerNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 2px solid rgb(236, 164, 10); */
+}
+
+.LogoNavbar {
+  width: 25%;
+  padding-left: 5%;
+
+  /* border: 2px solid rgb(236, 10, 10); */
+}
+
+
+
+.LogoNavbar img {
+  width: 100%;
+}
+
+.LogoNavbar img:hover {
+  transform: translateX(1px) translateY(2px);
+  filter: brightness(85%)
+}
+
+.ImgeNavbar a {
+  /* border: 2px solid red; */
+}
+
+.ImgeNavbar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+  height: 80px;
+  padding-right: 10px;
+  /* border: 2px solid rgb(236, 10, 10); */
+}
+
+.ImgeNavbar img {
+  width: 65px;
+  height: 65px;
+}
+
+.ImgeNavbar img:hover{
+transform: translateX(1px) translateY(2px);
+filter: brightness(85%)
+/* box-shadow: 7px 8px 0px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 8px 0px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 8px 0px -1px rgba(0,0,0,0.75); */
+}
+
+@media screen and (max-width: 768px) {
+  .LogoNavbar {
+    width: 55%;
+    padding-left: 2%;
+  }
+  .LogoNavbar img {
+    width: 100%;
+  }
+
+  .ImgeNavbar {
+    width: 30%;
+    height: 80px;
+    padding-right: 25px;
+    /* border: 2px solid rgb(10, 236, 206); */
+  }
+
+  .ImgeNavbar img {
+    width: 65px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .LogoNavbar {
+    width: 50%;
+    padding-left: 2%;
+  }
+  .LogoNavbar img {
+    width: 100%;
+  }
+
+  .ImgeNavbar {
+    width: 35%;
+    height: 50px;
+    /* border: 2px solid rgb(10, 236, 206); */
+  }
+
+  .ImgeNavbar img {
+    width: 45px;
+    height: 45px;
+  }
+}
