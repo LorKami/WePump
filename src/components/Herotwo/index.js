@@ -52,7 +52,7 @@ const Herotwo = () => {
                   <h2>Collection</h2>
                 <div className='HeroRightDownBox'>
                   <div className='HeroRightDownCollection'>
-                    <p>Each minted WePumpNFT(...) has a unique characteristic based on one of the four existing colors, which determines the percentage of $WPUMP airdrop you will receive :</p>
+                    <p>Each minted WePumpNFT has a unique characteristic based on one of the four existing colors, which determines the percentage of $WPUMP airdrop you will receive :</p>
                     <p><span className='SOrange'>Orange: 35%</span> - This color has a slightly higher percentage due to its association with emotion and energy. It represents the excitement of being part of the project and the passion to continue in it.</p>
                     <p><span className='SGreen'>Green: 30%</span> - This color has a prominent percentage and is associated with nature and abundance. It represents the growth and prosperity expected when acquiring a WePumpNFT(...) and the anticipation of receiving rewards in $WPUMP.</p>
                     <p><span className='SYellow'>Yellow: 25%</span> - This color has a slightly lower but still significant percentage. It evokes joy and optimism and represents the excitement of receiving $WPUMP airdrops and participating in the pre-sale. It also symbolizes fast-paced success.</p>
